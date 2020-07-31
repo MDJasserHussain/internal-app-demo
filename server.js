@@ -73,7 +73,7 @@ app.post('/event', (req, res) => {
 
 
     // return the complete array
-    res.json(mockEvents);
+    //res.json(mockEvents);
 });
 
 function getEvents(req, res) {
